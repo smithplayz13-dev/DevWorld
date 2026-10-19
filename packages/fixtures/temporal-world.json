@@ -1,0 +1,1 @@
+{"description": "temporal-world: world time resolves one commit per repo; r1 c2 is clock-skewed", "at": "2026-05-01T00:00:00Z", "expect": {"atlas-web": {"ordinal": 1, "clock_adjusted": true}, "orbit-api": {"ordinal": 0}, "star-charts": "before_coverage"}}

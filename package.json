@@ -1,0 +1,21 @@
+{
+  "name": "devworld",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "workspaces": [
+    "apps/web",
+    "packages/contracts"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter ./apps/web dev",
+    "build": "pnpm --filter ./apps/web build",
+    "lint": "pnpm --filter ./apps/web lint",
+    "typecheck": "pnpm --filter ./apps/web typecheck",
+    "test:unit": "pnpm --filter ./apps/web test:unit",
+    "test:e2e": "pnpm --filter ./apps/web test:e2e",
+    "contracts:generate": "node scripts/generate-contracts.mjs",
+    "contracts:check": "node scripts/check-contracts.mjs",
+    "docs:check": "node scripts/docs-check.mjs"
+  }
+}

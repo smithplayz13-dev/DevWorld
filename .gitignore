@@ -1,0 +1,14 @@
+node_modules/
+.pnpm-store/
+dist/
+apps/web/dist/
+apps/web/.vite/
+*.local
+.env
+__pycache__/
+*.py[cod]
+test-results/
+playwright-report/
+apps/backend/.venv/
+.devworld.db
+*.log
